@@ -24,8 +24,7 @@ npm install profanity-list
 #### hasSwearWord
 ```sh
 import profanity from 'profanity-list';
- 
-// Sets to default locale of en-base
+
 profanity.hasSwearWord("this fucking sucks."); //true
 profanity.hasSwearWord("Today has been great!"); //false
 
@@ -35,8 +34,7 @@ profanity.hasSwearWord(["Today has been great!", "I'm so happy"]); //true
 #### numberOfSwears
 ```sh
 import profanity from 'profanity-list';
- 
-// Sets to default locale of en-base
+
 profanity.numberOfSwears("this shit fucking sucks."); //2
 profanity.numberOfSwears("Today has been great!"); //0
 
@@ -46,8 +44,7 @@ profanity.numberOfSwears(["What the fuck!", "This shit fucking sucks."]); //[1, 
 #### numberOfSwears
 ```sh
 import profanity from 'profanity-list';
- 
-// Sets to default locale of en-base
+
 profanity.removeSwears("this shit fucking sucks."); //this shit ******* sucks.
 profanity.removeSwears("Today has been great!"); //Today has been great!
 

@@ -1,6 +1,6 @@
 {
     "name": "profanity-list",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Identify, remove, replace, and count profanities within a string or an array of strings.",
     "main": "index.js",
     "type": "module",
