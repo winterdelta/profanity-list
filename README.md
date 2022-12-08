@@ -49,7 +49,7 @@ profanity.removeSwears("this shit fucking sucks."); //this shit ******* sucks.
 profanity.removeSwears("Today has been great!"); //Today has been great!
 
 profanity.removeSwears(["Today has been great!", "I hate this shit"]); //["Today has been great!", "I hate this ****"]
-profanity.removeSwears(["What the fuck!", "This shit fucking sucks."]); //["What the ****!", "This shit ******* sucks."]
+profanity.removeSwears(["What the fuck!", "This shit fucking sucks."]); //["What the ****!", "This **** ******* sucks."]
 ```
 
 ## Author
