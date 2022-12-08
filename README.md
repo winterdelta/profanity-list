@@ -41,7 +41,7 @@ profanity.numberOfSwears("Today has been great!"); //0
 profanity.numberOfSwears(["Today has been great!", "I hate this shit"]); //[0, 1]
 profanity.numberOfSwears(["What the fuck!", "This shit fucking sucks."]); //[1, 2]
 ```
-#### numberOfSwears
+#### removeSwears
 ```sh
 import profanity from 'profanity-list';
 
